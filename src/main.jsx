@@ -11,32 +11,6 @@ import User from './components/User/User.jsx'
 import Github from './components/Github/Github.jsx'
 
 
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Layout />,
-//     children: [
-//       {
-//         path: "",
-//         element: <Home />
-//       },
-//       {
-//         path: "about",
-//         element: <About />
-//       },
-//       {
-//         path: "contact",
-//         element: <Contact />
-//       },
-//       {
-//         path: "user/:userid",
-//         element: <User/>
-//       }
-//     ]
-    
-//   }
-// ])
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />} >
